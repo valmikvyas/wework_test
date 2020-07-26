@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  flex: 1;
+  font-family: sans-serif;
+}
+
+.intro {
+  height: 100vh;
+}
+
+video {
+  flex: 1;
+  height: 100vh;
+  width: 100vh;
+  justify-content: center;
+  justify-self: center;
+  justify-items: center;
+  object-fit: contain;
+}
+
+.intro h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  color: grey;
+}
+
+.middle h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  color: grey;
+}
+
+.end h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  color: grey;
+}
