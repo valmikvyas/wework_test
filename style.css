@@ -13,14 +13,24 @@ body {
   height: 100vh;
 }
 
+.middle {
+  height: 100vh;
+}
+
+.end {
+  height: 100vh;
+}
+
 video {
-  flex: 1;
+  display: block;
+  margin: auto;
   height: 100vh;
   width: 100vh;
-  justify-content: center;
   justify-self: center;
-  justify-items: center;
-  object-fit: contain;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  object-fit: fill;
 }
 
 .intro h3 {
@@ -28,7 +38,7 @@ video {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 80px;
+  font-size: 50px;
   color: grey;
 }
 
@@ -37,7 +47,7 @@ video {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 80px;
+  font-size: 50px;
   color: grey;
 }
 
@@ -46,6 +56,6 @@ video {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 80px;
+  font-size: 50px;
   color: grey;
 }
