@@ -35,6 +35,8 @@ video {
 
 .intro h3 {
   position: absolute;
+  display: block;
+  margin: auto;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
