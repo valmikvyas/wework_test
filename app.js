@@ -84,7 +84,7 @@ let textScene3 = new ScrollMagic.Scene({
   .addTo(controller);
 
 //Video Animation
-let accelamount = .5;
+let accelamount = .1;
 let scrollpos = 0;
 let delay = 0;
 
